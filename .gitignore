@@ -2,3 +2,9 @@
 src/*.pyc
 temp*
 temp/
+data/sample2/*
+!data/sample2/alignments.sam
+!data/sample2/layout-miniasm.fasta
+data/sample1/*
+!data/sample1/msa3.handmade.ref.fa
+!data/sample1/msa3.handmade.sam
