@@ -1,0 +1,7 @@
+@HD	VN:1.0	SO:unknown
+@SQ	SN:Ref1	LN:6
+@SQ	SN:Ref2	LN:6
+@SQ	SN:Ref3	LN:6
+read_1	0	Ref1	1	40	1M1D1M1D2M	*	0	0	CAAT	*
+read_2	0	Ref2	1	40	2M2D2M	*	0	0	CAAT	*
+read_3	0	Ref3	1	40	2M2D2M	*	0	0	CAAT	*
