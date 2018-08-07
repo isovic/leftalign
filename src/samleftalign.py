@@ -151,6 +151,10 @@ def process_sam_on_the_fly(in_sam, ref_file, fp_out):
         sam_line = parse_sam_line(line, rname_hash);
         num_alignments += 1;
 
+        if (sam_line.QueryBases == '*'):
+            fp_out.write('%s\n' % (line))
+            continue
+
         if (sam_line.IsMapped() == False):
             fp_out.write('%s\n' % (line));
             continue;
